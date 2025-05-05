@@ -17,7 +17,8 @@ ProcessThrottler 是一个用于限制和控制 Windows 进程资源使用的工
 ## 系统要求
 - WindowsXP ~ Windows7 某些核心功能可用
 - Windows 8及以上版本 所有功能均可用
-- ~~.NET Framework 4.7.2 或更高版本~~ 使用AOT编译，无需运行库支持
+- ~~.NET Framework 4.7.2 或更高版本~~
+  使用AOT编译，无需运行库支持，也未内置运行库
 - 管理员权限（可选，对于高权限进程，某些资源限制功能需要管理员权限才能正常工作）
 
 ## 使用方法
