@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishAot>false</PublishAot>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>$(NoWarn);WFO5001</NoWarn>
+    <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ConfigDetailForm - 复制%282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConfigDetailForm - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1 - 复制 - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1 - 复制%282%29 - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1 - 复制%282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1 - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoadingForm - 复制 - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoadingForm - 复制%282%29 - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoadingForm - 复制%282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoadingForm - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PathEditForm - 复制%282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PathEditForm - 复制%283%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PathEditForm - 复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
